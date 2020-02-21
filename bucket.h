@@ -15,7 +15,7 @@ private:
     void output();
 
     int collision;
-    const static int  subNumber = 100;//const static
+    const static int subNumber = 100;
     std::list<float> subBucket[subNumber];
 };
 
